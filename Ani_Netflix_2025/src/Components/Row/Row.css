@@ -1,0 +1,41 @@
+.isLarge img{
+    width: 200px;
+    display: block;
+}
+
+
+
+.isSmall img{
+    width: 300px;
+    display: block;
+}
+
+.movies-Row{
+    display: flex;
+    gap: 10px;
+}
+.single-row-container h1{
+    margin: 5px  0px  15px;
+    color: white;
+}
+
+.single-row-container{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+.single-row-container::-webkit-scrollbar{
+    display: none;
+}
+.banner-title{
+    color: white;
+    position: relative;
+    margin: -10px 0px 5px 30px;
+    z-index: 300;
+}
+.trailer-container{
+display:flex;
+justify-content: center;
+
+}
